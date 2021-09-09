@@ -44,3 +44,6 @@ GMM_Model_
 
 GMM_model_2<-gmm(High_Tech_TCI~GDP_per_capita+GDP_product+distance+Distance_between_major_ports+Free_Trade_Agreement+Outward_FDI_stock__of_GDP,~ GDP_per_capita + GDP_product + distance+Distance_between_major_ports+Free_Trade_Agreement+Outward_FDI_stock__of_GDP,data = GMMA_data_STATA, eqConst = matrix(c(1,2,0,1),2,2)) 
 GMM_model_2
+
+#After a successfull moment let us now create new repositories
+GMM_MODEL_3<-gmm(High_Tech_TCI)
