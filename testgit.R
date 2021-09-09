@@ -47,3 +47,6 @@ GMM_model_2
 
 #After a successfull moment let us now create new repositories
 GMM_MODEL_3<-gmm(High_Tech_TCI)
+#i waas here and i went there
+#i am trying to do something important here
+gmm<-c(23,45,67)
